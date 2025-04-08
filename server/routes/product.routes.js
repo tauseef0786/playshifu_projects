@@ -10,7 +10,7 @@ import { authenticate, authorizeAdmin } from "../middleware/auth.middleware.js";
 
 const router = express.Router();
 
-router.get("/", getAllProducts);    // GET  http://localhost:3030/api/products
+router.get("/", getAllProducts);    // GET  http://localhost:3030/api/products ii
 router.get("/:id", getProductById);    // GET  http://localhost:3030/api/products/id
 
 router.post("/", authenticate, authorizeAdmin, createProduct);   // POST  http://localhost:3030/api/products by admin only 
