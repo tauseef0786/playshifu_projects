@@ -11,20 +11,20 @@
 ## Routes
 
 #### User Routes
-// POST :  http://localhost:3030/api/auth/register
-// POST :  http://localhost:3030/api/auth/login
+    // POST :  https://playshifu-apies.onrender.com/api/auth/register
+    // POST :  https://playshifu-apies.onrender.com/api/auth/login
  
  #### Auth routes protected 
-// GET :  http://localhost:3030/api/auth/profile  
-// PUT :   http://localhost:3030/api/auth/change-password
+    // GET :   https://playshifu-apies.onrender.com/api/auth/profile  
+    // PUT :   https://playshifu-apies.onrender.com/api/auth/change-password
 
 #### Product Routes 
-// GET:   http://localhost:3030/api/products
-// GET :  http://localhost:3030/api/products/id
+    // GET:   https://playshifu-apies.onrender.com/api/products
+    // GET :  https://playshifu-apies.onrender.com/api/products/id
 ####  by admin only 
-// POST:  http://localhost:3030/api/products       
-// PUT:   http://localhost:3030/api/products/id   
-// DELETE:   http://localhost:3030/api/products/id
+     // POST:     https://playshifu-apies.onrender.com/api/products       
+     // PUT:      https://playshifu-apies.onrender.com/api/products/id   
+     // DELETE:   https://playshifu-apies.onrender.com/api/products/id
 
 
 ## Folder Structure
