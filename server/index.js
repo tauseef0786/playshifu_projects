@@ -14,10 +14,10 @@ connectDB();
 
 app.use(cors()); //middleware
   
-app.get("/api/hello", (req, res) => {
-  res.json({ message: "Hello welcome to backend" });
+app.get("/", (req, res) => {
+  res.send("Welcome to the PlayShifu API");
 });
-  
+
 app.use("/api/auth", authRoutes);
 app.use("/api/products", productRoutes);
 
